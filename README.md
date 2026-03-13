@@ -25,6 +25,3 @@ The screenshot at the top shows the theme applied in Warp. If the image does not
 - The YAML file contains color tokens for normal and bright terminal colors, plus foreground/background values.
 - If you'd like, I can add the screenshot image into the repo — upload it here or tell me to fetch it and I'll add it.
 
----
-
-Created with ♥ for Warp users who prefer a cozy, muted palette.
