@@ -1,3 +1,4 @@
 .DS_Store
 gen_terminal_profile.py
 *.vsix
+docs/

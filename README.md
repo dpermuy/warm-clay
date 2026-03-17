@@ -1,6 +1,6 @@
 # Warm Clay
 
-A warm, earthy color theme for the terminal — available for multiple terminal emulators.
+A warm, earthy color theme — available for multiple terminal emulators and VS Code.
 
 ![Warm Clay preview](screenshot.png)
 
@@ -10,6 +10,7 @@ A warm, earthy color theme for the terminal — available for multiple terminal 
 |---|---|
 | [Warp](https://www.warp.dev) (macOS) | `warm_clay.yaml` |
 | [Terminal](https://support.apple.com/guide/terminal/welcome/mac) (macOS) | `Warm Clay.terminal` |
+| [VS Code](https://code.visualstudio.com) | `vscode/` |
 
 ---
 
@@ -27,6 +28,16 @@ A warm, earthy color theme for the terminal — available for multiple terminal 
 
 1. Double-click `Warm Clay.terminal` — this imports the profile into Terminal automatically.
 2. Open **Terminal → Settings → Profiles**, select **Warm Clay**, and click **Default** to make it your default profile.
+
+### VS Code
+
+1. Build the extension:
+   ```
+   cd vscode
+   npx vsce package
+   ```
+2. In VS Code, open **Extensions** (`Cmd+Shift+X`), click `···` → **Install from VSIX...**, and select `warm-clay-1.0.0.vsix`.
+3. Open Command Palette (`Cmd+Shift+P`), run **Preferences: Color Theme**, and select **Warm Clay**.
 
 ---
 
