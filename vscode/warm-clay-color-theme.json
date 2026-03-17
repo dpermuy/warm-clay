@@ -1,0 +1,129 @@
+{
+  "name": "Warm Clay",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#442f29",
+    "editor.foreground": "#e7e0de",
+    "editorCursor.foreground": "#7ebab5",
+    "editor.lineHighlightBackground": "#5a3d3540",
+    "editor.selectionBackground": "#7ebab533",
+    "editor.selectionHighlightBackground": "#7ebab520",
+    "editor.findMatchBackground": "#c8956c50",
+    "editor.findMatchHighlightBackground": "#c8956c30",
+
+    "editorLineNumber.foreground": "#5a3d35",
+    "editorLineNumber.activeForeground": "#b0dbd7",
+    "editorGutter.background": "#3a2620",
+
+    "editorIndentGuide.background1": "#5a3d3560",
+    "editorIndentGuide.activeBackground1": "#7ebab580",
+
+    "scrollbarSlider.background": "#5a3d3580",
+    "scrollbarSlider.hoverBackground": "#5a3d35aa",
+    "scrollbarSlider.activeBackground": "#5a3d35cc",
+
+    "activityBar.background": "#2a1c17",
+    "activityBar.foreground": "#e7e0de",
+    "activityBar.inactiveForeground": "#5a3d35",
+    "activityBarBadge.background": "#7ebab5",
+    "activityBarBadge.foreground": "#2a1c17",
+
+    "sideBar.background": "#3a2620",
+    "sideBar.foreground": "#e7e0de",
+    "sideBarTitle.foreground": "#b0dbd7",
+    "sideBarSectionHeader.background": "#2a1c17",
+    "sideBarSectionHeader.foreground": "#e7e0de",
+
+    "editorGroupHeader.tabsBackground": "#2a1c17",
+    "tab.activeBackground": "#442f29",
+    "tab.activeForeground": "#e7e0de",
+    "tab.inactiveBackground": "#3a2620",
+    "tab.inactiveForeground": "#5a3d35",
+    "tab.activeBorderTop": "#7ebab5",
+    "tab.border": "#2a1c17",
+
+    "titleBar.activeBackground": "#2a1c17",
+    "titleBar.activeForeground": "#e7e0de",
+    "titleBar.inactiveBackground": "#2a1c17",
+    "titleBar.inactiveForeground": "#5a3d35",
+
+    "statusBar.background": "#3a2620",
+    "statusBar.foreground": "#e7e0de",
+    "statusBar.border": "#2a1c17",
+    "statusBar.debuggingBackground": "#b46a55",
+    "statusBar.debuggingForeground": "#f0ebe9",
+    "statusBar.noFolderBackground": "#2a1c17",
+
+    "panel.background": "#3a2620",
+    "panel.border": "#2a1c17",
+    "panelTitle.activeForeground": "#7ebab5",
+    "panelTitle.activeBorder": "#7ebab5",
+    "panelTitle.inactiveForeground": "#5a3d35",
+
+    "terminal.background": "#442f29",
+    "terminal.foreground": "#e7e0de",
+    "terminal.ansiBlack": "#2a1c17",
+    "terminal.ansiRed": "#b46a55",
+    "terminal.ansiGreen": "#7ebab5",
+    "terminal.ansiYellow": "#c8956c",
+    "terminal.ansiBlue": "#7ebab5",
+    "terminal.ansiMagenta": "#b46a55",
+    "terminal.ansiCyan": "#9ecfca",
+    "terminal.ansiWhite": "#e7e0de",
+    "terminal.ansiBrightBlack": "#5a3d35",
+    "terminal.ansiBrightRed": "#c87d6a",
+    "terminal.ansiBrightGreen": "#9ecfca",
+    "terminal.ansiBrightYellow": "#d4a87a",
+    "terminal.ansiBrightBlue": "#9ecfca",
+    "terminal.ansiBrightMagenta": "#c87d6a",
+    "terminal.ansiBrightCyan": "#b0dbd7",
+    "terminal.ansiBrightWhite": "#f0ebe9",
+
+    "input.background": "#3a2620",
+    "input.foreground": "#e7e0de",
+    "input.border": "#5a3d35",
+    "input.placeholderForeground": "#5a3d35",
+    "inputOption.activeBorder": "#7ebab5",
+
+    "button.background": "#7ebab5",
+    "button.foreground": "#2a1c17",
+    "button.hoverBackground": "#9ecfca",
+
+    "dropdown.background": "#3a2620",
+    "dropdown.foreground": "#e7e0de",
+    "dropdown.border": "#5a3d35",
+
+    "list.activeSelectionBackground": "#5a3d35",
+    "list.activeSelectionForeground": "#e7e0de",
+    "list.hoverBackground": "#5a3d3550",
+    "list.focusBackground": "#5a3d3570",
+    "list.highlightForeground": "#7ebab5",
+
+    "focusBorder": "#7ebab5",
+    "selection.background": "#7ebab533",
+
+    "badge.background": "#7ebab5",
+    "badge.foreground": "#2a1c17",
+
+    "progressBar.background": "#7ebab5",
+
+    "notifications.background": "#3a2620",
+    "notifications.foreground": "#e7e0de",
+    "notificationLink.foreground": "#7ebab5",
+
+    "editorWidget.background": "#3a2620",
+    "editorWidget.border": "#5a3d35",
+    "editorSuggestWidget.background": "#3a2620",
+    "editorSuggestWidget.border": "#5a3d35",
+    "editorSuggestWidget.selectedBackground": "#5a3d35",
+
+    "peekViewEditor.background": "#3a2620",
+    "peekViewResult.background": "#2a1c17",
+    "peekView.border": "#7ebab5",
+    "peekViewEditor.matchHighlightBackground": "#c8956c40",
+
+    "diffEditor.insertedTextBackground": "#7ebab520",
+    "diffEditor.removedTextBackground": "#b46a5520"
+  },
+  "tokenColors": []
+}
