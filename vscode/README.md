@@ -11,7 +11,7 @@ A warm, earthy color theme for VS Code.
    ```
 2. Install:
    ```sh
-   code --install-extension warm-clay.vsix
+   code --install-extension warm-clay-1.0.0.vsix
    ```
 3. Open the Command Palette (`Cmd+Shift+P`), run **Preferences: Color Theme**, and select **Warm Clay**.
 
