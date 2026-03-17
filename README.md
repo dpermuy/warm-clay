@@ -1,27 +1,47 @@
-# Warm Clay — Warp Terminal Theme
+# Warm Clay
 
-A warm, earthy color theme for the Warp terminal app.
+A warm, earthy color theme for the terminal — available for multiple terminal emulators.
 
 ![Warm Clay preview](screenshot.png)
 
-## Overview
+## Supported terminals
 
-This repository contains a custom Warp terminal theme called **Warm Clay**. The theme is provided as a YAML file:
+| Terminal | File |
+|---|---|
+| [Warp](https://www.warp.dev) (macOS) | `warm_clay.yaml` |
+| [Terminal](https://support.apple.com/guide/terminal/welcome/mac) (macOS) | `Warm Clay.terminal` |
 
-- [warm_clay.yaml](warm_clay.yaml#L1)
+---
 
 ## Installation
 
-1. Open Warp and go to Preferences → Appearance → Themes (or Themes/Appearance settings).
-2. Choose **Import** and select the `warm_clay.yaml` file from this repository.
-3. Activate the imported theme.
+### Warp
 
-## Preview
+1. Copy `warm_clay.yaml` to `~/.warp/themes/`:
+   ```
+   cp warm_clay.yaml ~/.warp/themes/
+   ```
+2. In Warp, open **Settings → Appearance → Themes** and select **Warm Clay**.
 
-The screenshot at the top shows the theme applied in Warp. If the image does not display, add a file named `screenshot.png` to the repository root.
+### macOS Terminal
 
-## Notes
+1. Double-click `Warm Clay.terminal` — this imports the profile into Terminal automatically.
+2. Open **Terminal → Settings → Profiles**, select **Warm Clay**, and click **Default** to make it your default profile.
 
-- The YAML file contains color tokens for normal and bright terminal colors, plus foreground/background values.
-- If you'd like, I can add the screenshot image into the repo — upload it here or tell me to fetch it and I'll add it.
+---
 
+## Color palette
+
+| Role | Hex |
+|---|---|
+| Background | `#442f29` |
+| Foreground | `#e7e0de` |
+| Accent / Cursor | `#7ebab5` |
+| Black | `#2a1c17` |
+| Red | `#b46a55` |
+| Green | `#7ebab5` |
+| Yellow | `#c8956c` |
+| Blue | `#7ebab5` |
+| Magenta | `#b46a55` |
+| Cyan | `#9ecfca` |
+| White | `#e7e0de` |
