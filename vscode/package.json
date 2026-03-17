@@ -1,0 +1,18 @@
+{
+  "name": "warm-clay",
+  "displayName": "Warm Clay",
+  "description": "A warm, earthy color theme for VS Code",
+  "version": "1.0.0",
+  "publisher": "local",
+  "engines": { "vscode": "^1.70.0" },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Warm Clay",
+        "uiTheme": "vs-dark",
+        "path": "./warm-clay-color-theme.json"
+      }
+    ]
+  }
+}
