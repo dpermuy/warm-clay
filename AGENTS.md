@@ -1,0 +1,15 @@
+- This repository contains the Warm Clay color theme assets for Warp, macOS Terminal, and VS Code.
+- Keep changes small and format-specific; avoid altering theme values in one target without checking whether the same palette should stay aligned across the others.
+- `README.md` documents installation and supported targets.
+- `warm_clay.yaml` defines the Warp theme.
+- `Warm Clay.terminal` stores the macOS Terminal profile.
+- `vscode/package.json` contains the VS Code extension manifest.
+- `vscode/warm-clay-color-theme.json` contains the VS Code theme colors.
+- Preserve the existing Warm Clay palette unless the task explicitly asks for a design change.
+- When changing user-facing installation steps or packaging flow, update the relevant README files in the same change.
+- Prefer minimal, hand-edited JSON/YAML changes and keep key ordering/style consistent with the surrounding file.
+- Do not rename release artifacts or theme labels unless the user asks.
+- For VS Code extension changes, verify `vscode/package.json` stays in sync with `vscode/warm-clay-color-theme.json` paths and labels.
+- If packaging instructions change, validate them against the current file layout.
+- Do not modify generated artifacts unless the task explicitly requires it.
+- Keep generated VS Code packaging output such as `*.vsix` out of version control.

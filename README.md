@@ -8,10 +8,10 @@ A warm, earthy color theme — available for Warp, macOS Terminal, Air, and VS C
 
 | Terminal | File |
 |---|---|
-| [Warp](https://www.warp.dev) (macOS) | `warm_clay.yaml` |
-| [Terminal](https://support.apple.com/guide/terminal/welcome/mac) (macOS) | `Warm Clay.terminal` |
+| [Warp](https://www.warp.dev) (macOS) | `warp/warm_clay.yaml` |
+| [Terminal](https://support.apple.com/guide/terminal/welcome/mac) (macOS) | `terminal/Warm Clay.terminal` |
 | [VS Code](https://code.visualstudio.com) | `vscode/` |
-| [Air](https://air.dev) | `Warm-Clay-Colorized.json` |
+| [Air](https://air.dev) | `air/Warm-Clay-Colorized.json` |
 
 ---
 
@@ -19,22 +19,22 @@ A warm, earthy color theme — available for Warp, macOS Terminal, Air, and VS C
 
 ### Warp
 
-1. Copy `warm_clay.yaml` to `~/.warp/themes/`:
+1. Copy `warp/warm_clay.yaml` to `~/.warp/themes/`:
    ```
-   cp warm_clay.yaml ~/.warp/themes/
+   cp warp/warm_clay.yaml ~/.warp/themes/
    ```
 2. In Warp, open **Settings → Appearance → Themes** and select **Warm Clay**.
 
 ### macOS Terminal
 
-1. Double-click `Warm Clay.terminal` — this imports the profile into Terminal automatically.
+1. Double-click `terminal/Warm Clay.terminal` — this imports the profile into Terminal automatically.
 2. Open **Terminal → Settings → Profiles**, select **Warm Clay**, and click **Default** to make it your default profile.
 
 ### Air
 
-1. Copy `Warm-Clay-Colorized.json` to `~/Library/Application Support/JetBrains/Air/themes/`:
+1. Copy `air/Warm-Clay-Colorized.json` to `~/Library/Application Support/JetBrains/Air/themes/`:
    ```
-   cp Warm-Clay-Colorized.json ~/Library/Application\ Support/JetBrains/Air/themes/
+   cp air/Warm-Clay-Colorized.json ~/Library/Application\ Support/JetBrains/Air/themes/
    ```
 2. Restart Air if it is already open, then open the theme picker and select **Warm Clay**.
 
