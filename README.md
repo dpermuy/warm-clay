@@ -1,16 +1,17 @@
 # Warm Clay
 
-A warm, earthy color theme — available for multiple terminal emulators and VS Code.
+A warm, earthy color theme — available for Warp, macOS Terminal, Air, and VS Code.
 
 ![Warm Clay preview](screenshot.png)
 
-## Supported terminals
+## Supported targets
 
 | Terminal | File |
 |---|---|
 | [Warp](https://www.warp.dev) (macOS) | `warm_clay.yaml` |
 | [Terminal](https://support.apple.com/guide/terminal/welcome/mac) (macOS) | `Warm Clay.terminal` |
 | [VS Code](https://code.visualstudio.com) | `vscode/` |
+| [Air](https://air.dev) | `Warm-Clay-Colorized.json` |
 
 ---
 
@@ -28,6 +29,14 @@ A warm, earthy color theme — available for multiple terminal emulators and VS 
 
 1. Double-click `Warm Clay.terminal` — this imports the profile into Terminal automatically.
 2. Open **Terminal → Settings → Profiles**, select **Warm Clay**, and click **Default** to make it your default profile.
+
+### Air
+
+1. Copy `Warm-Clay-Colorized.json` to `~/Library/Application Support/JetBrains/Air/themes/`:
+   ```
+   cp Warm-Clay-Colorized.json ~/Library/Application\ Support/JetBrains/Air/themes/
+   ```
+2. Restart Air if it is already open, then open the theme picker and select **Warm Clay**.
 
 ### VS Code
 
